@@ -1,0 +1,14 @@
+Loaded dependency [python3/3.12.9]: sqlite3/3.49.0
+Loaded dependency [python3/3.12.9]: gcc/12.4.0-binutils-2.42
+Loaded module: python3/3.12.9
+
+Loading python3/3.12.9
+  Loading requirement: sqlite3/3.49.0 gcc/12.4.0-binutils-2.42
+Traceback (most recent call last):
+  File "/work3/s204797/default_mace/mace/cli/run_train.py", line 16, in <module>
+    import torch.distributed
+  File "/zhome/4a/a/156124/.local/lib/python3.9/site-packages/torch/__init__.py", line 1397, in <module>
+    from .serialization import save, load
+  File "/zhome/4a/a/156124/.local/lib/python3.9/site-packages/torch/serialization.py", line 18, in <module>
+    from typing_extensions import TypeAlias  # Python 3.10+
+ModuleNotFoundError: No module named 'typing_extensions'
