@@ -33,9 +33,10 @@ dist/
 *.xyz
 /checkpoints
 *.model
+/results
+*.db
 
 .benchmarks
-*.db
 *.png
 
 .venv/
